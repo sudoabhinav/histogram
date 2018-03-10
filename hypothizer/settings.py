@@ -121,3 +121,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+
+CSV_FILE_NAME = 'DelhiPopulationData.csv'
+CSV_FILE_PATH = os.path.join(BASE_DIR, CSV_FILE_NAME)
